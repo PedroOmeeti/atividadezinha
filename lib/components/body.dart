@@ -50,11 +50,15 @@ class Body extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              ElevatedButton(onPressed: () {}, 
-                child: Text('LinkedIn')
+              ElevatedButton.icon(
+                onPressed: () {}, 
+                icon: const Icon(Icons.cloud),
+                label: Text('LinkedIn')
               ),
-              ElevatedButton(onPressed: () {},
-               child: Text('Discord')
+              ElevatedButton.icon(
+               onPressed: () {},
+               icon: const Icon(Icons.cloud),
+               label: Text('Discord')
               ),
             ],
 
@@ -64,11 +68,16 @@ class Body extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  ElevatedButton(onPressed: () {},
-                  child: Text('Instagram')
+                  ElevatedButton.icon(
+                  onPressed: () {},
+                  icon: const Icon(Icons.cloud),
+                  label: Text('Instagram')
                   ),
-                  ElevatedButton(onPressed: () {},
-                  child: Text('Facebook')
+                  ElevatedButton.icon(
+                  onPressed: () {},
+                  icon: const Icon(Icons.cloud),
+                  label: Text('Facebook'),
+              
                   ),
 
               ],)
